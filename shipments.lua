@@ -17,6 +17,7 @@ https://darkrp.miraheze.org/wiki/DarkRP:CustomShipmentFields
 
 Add shipments and guns under the following line:
 ---------------------------------------------------------------------------]]
+// Para el que odie tener que hacer todo esto, ya tiene las armas con precios, modelos, y categorias traducidas al español, NO SE OLVIDEN DE CREAR LAS CATEGORIAS, y tampoco se olviden de descargar los dos addons necesarios, cw 2.0 weapons y extra cw
 
 // CW 2.0 //
 DarkRP.createShipment("FN Five-Seven", { model = "models/weapons/w_pist_fiveseven.mdl", entity = "cw_fiveseven", price = 15000, amount = 10, separate = false, pricesep = nil, noship = false, allowed = {TEAM_GUN}, category = "Pistolas"})
